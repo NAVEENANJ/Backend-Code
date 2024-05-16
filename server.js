@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 
 const pool = new Pool({
   user: 'postgres',
-  host: 'demo-rds-test.cvlhr18nswm3.ap-south-1.rds.amazonaws.com', // This is the name of the database service in Docker
+  host: 'demo-rds-test.czyqwuyg0nt2.ap-south-1.rds.amazonaws.com', // This is the name of the database service in Docker
   database: 'postgres',
   password: 'admin123',
   port: 5432,
